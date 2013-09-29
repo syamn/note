@@ -9,4 +9,7 @@ var models = require('./models/');
 module.exports.models = models.get;
 models.initialize();
 
+// Call another.js
+require('./another.js');
+
 console.log('OK'); return;
